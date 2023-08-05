@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,200;1,300&family=Dancing+Script:wght@600;700&family=Sedgwick+Ave+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+font-family: 'Chivo Mono', monospace;
+font-family: 'Dancing Script', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+*/
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+p{
+    font-size: 15px;
+    
+    font-family: 'Chivo Mono', monospace;
+}
+.birth{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.box h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.box small{
+    font-size: 10px;
+}
+@media (min-width:576px){
+    p{
+        font-size: 20px;
+    }
+    .birth{
+        font-size: 100px;
+    }
+    .box{
+        width:100px;
+        height: 70px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box small{
+        font-size: 15px;
+    }
+}
+@media (min-width:768px){
+    p{
+        font-size: 25px;
+    }
+    .birth{
+        font-size: 150px;
+    }
+    .box{
+        width:150px;
+        height: 100px;
+    }
+    .box h2{
+        font-size: 50px;
+    }
+    .box small{
+        font-size: 20px;
+    }
+}
